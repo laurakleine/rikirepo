@@ -29,3 +29,13 @@ int main() {
     
     return dp[m][n];
 }
+int main() {
+    std::string str1 = "kitten";
+    std::string str2 = "sitting";
+    
+    int distance = levenshteinDistance(str1, str2);
+    
+    std::cout << "Levenshtein distance between '" << str1 << "' and '" << str2 << "' is: " << distance << std::endl;
+    
+    return 0;
+}
